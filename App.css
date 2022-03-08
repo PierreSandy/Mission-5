@@ -1,38 +1,121 @@
 .App {
   text-align: center;
+
+ @media only screen and (min-width : 768px) {
+
+  width: 75%;
+ }
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.circle_group {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 8px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.circle_1 {
+  border-radius: 50%;
+  box-shadow: 5px 5px #888888;
+  width: 60px;
+  height: 60px;
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 20px;
+  color:#323f4b;
+  font-weight: bold;
+	line-height: 55px;
+	text-align: center;			
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle_2 {
+  border-radius: 50%;
+  box-shadow: 5px 5px #888888;
+  width: 60px;
+  height: 60px;
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 20px;
+  color:#323f4b;
+  font-weight: bold;
+	line-height: 55px;
+	text-align: center;			
+}
+
+.circle_3 {
+  border-radius: 50%;
+  box-shadow: 5px 5px #888888;
+  width: 60px;
+  height: 60px;
+
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 20px;
+  color:#323f4b;
+  font-weight: bold;
+	line-height: 55px;
+	text-align: center;			
+}
+
+.second_circle_group {
+  display:flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.second_circle_1 {
+  border-radius: 50%;
+  box-shadow: 5px 5px #888888;
+  width: 80px;
+  height: 80px;
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 20px;
+  font-weight: bold;
+  color:#323f4b;
+	line-height: 20px;
+	text-align:center;		
+}
+
+.second_circle_2 {
+  border-radius: 50%;
+  box-shadow: 5px 5px #888888;
+  width: 80px;
+  height: 80px;
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 20px;
+  color:#323f4b;
+  font-weight: bold;
+	line-height: 20px;
+	text-align: center;		
+}
+
+.square_box_group{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 0%;
+  gap: 70px;
+}
+
+.square_box {
+  border-radius: 5%;
+  box-shadow: 5px 5px #888888;
+  width: 130px;
+  height: 90px;
+
+  background:#e4e4e4;
+	padding:20px;
+	font-size: 10px;
+  font-weight: bold;
+	line-height: 70px;
+	text-align: left;	
 }
